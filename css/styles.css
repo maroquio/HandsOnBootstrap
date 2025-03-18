@@ -1,0 +1,30 @@
+/* Estilos personalizados */
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+/* Hover efeitos nos cards */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Ícones nos cards */
+.card i {
+    transition: transform 0.3s ease;
+}
+
+.card:hover i {
+    transform: scale(1.2);
+}
+
+/* Rodapé links */
+footer a:hover {
+    color: #fff !important;
+}
